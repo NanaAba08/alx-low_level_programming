@@ -1,21 +1,21 @@
 #include <stdio.h>
 /**
-  *main - compilation begins from main
+  *main - Entry
   *Description: 'Print all possible different combinations of two digits'
   *Return: Always 0
   */
 int main(void)
 {
-	int n, m;
+	int a, b;
 
-	for (n = 48; n <= 57; n++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (m = 49; m <= 57; m++)
+		for (b = a + 1; b <= 9; b++)
 		{
-			if (n == m && m > n)
+			putchar(a + '0');
+			putchar(b + '0');
+			if (a == b || b > a)
 			{
-				putchar(n);
-				putchar(m);
 				putchar(',');
 				putchar(' ');
 			}
