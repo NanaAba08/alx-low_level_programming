@@ -2,9 +2,9 @@
 /**
   * _memset - Fill memory with constant byte
   * @s: shows the 1st n byte of memory
-  * @n: the number of byte to fill memory 
+  * @n: the number of byte to fill memory
   * @b: constant byte
-  * Return: pointer to memory s
+  * Return: Always 0
   */
 char *_memset(char *s, char b, unsigned int n)
 {
