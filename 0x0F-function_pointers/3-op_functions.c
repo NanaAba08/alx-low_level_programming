@@ -39,7 +39,7 @@ int op_mul(int a, int b)
   * op_div - Print the division of two numbers
   * @a: The first input number
   * @b: The second input number
-  * Return: The result of divisin of a and b
+  * Return: The result of division of a and b
   */
 int op_div(int a, int b)
 {
@@ -55,7 +55,7 @@ int op_div(int a, int b)
   * op_mod -  Print the remainder of the division of two numbers
   * @a: The first input number
   * @b: The second input number
-  * Return: The remainder of divisin of a and b
+  * Return: The remainder of division of a and b
   */
 int op_mod(int a, int b)
 {
